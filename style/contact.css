@@ -99,3 +99,22 @@ nav a:hover {
 
 
 /* End Header Style */
+
+/* Start Form Style */
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, label, textarea{
+    width:100%;
+    margin:4% 0;
+}
+ 
+input, textarea{
+  border:none;
+  border-bottom:3px solid black;
+  background-color:whitesmoke;
+}
+/* End Form Style */
